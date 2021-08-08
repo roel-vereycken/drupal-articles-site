@@ -1,0 +1,17 @@
+name: Calibrate
+description: Drupal 8 Starter Theme
+type: theme
+core: 8.x
+
+libraries:
+  - calibrate/global-css
+  - calibrate/global-js
+
+regions:
+  content: 'Main Content'
+  content2: 'Second Content'
+  content3: 'Third Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'

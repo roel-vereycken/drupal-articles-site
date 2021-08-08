@@ -1,0 +1,32 @@
+.views-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.views-field-field-photo {
+  width: 400px;
+  height: 320px;
+
+  img {
+    height: auto;
+    min-height: 280px;
+    max-height: 300px;
+    width: 100%;
+  }
+}
+
+.js-pager__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  li {
+    margin-right: 7px;
+  }
+}
+
+.views-field-title {
+  margin-bottom: 5%;
+}

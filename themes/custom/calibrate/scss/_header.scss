@@ -1,0 +1,24 @@
+.main-header {
+  height: 400px;
+  background-image: url("../images/nature.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .logotext {
+    display: flex;
+    align-items: center;
+    .logo {
+      height: 300px;
+      width: 300px;
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+    .siteName {
+      margin-left: 2%;
+    }
+  }
+}

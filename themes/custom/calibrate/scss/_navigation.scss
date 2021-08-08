@@ -1,0 +1,52 @@
+.main-navigation {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 0 5%;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  transition: all 0.3s ease;
+
+  .navLeft {
+    width: 10%;
+    .navLogo {
+      width: 70px;
+      height: 70px;
+      transition: all 0.3s ease;
+    }
+    margin-right: auto;
+  }
+
+  .navRight {
+    nav {
+      width: 40%;
+
+      ul {
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li a {
+          font-size: 26px;
+          text-decoration: none;
+          color: black;
+
+          &:hover {
+            text-decoration: underline;
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+
+  .contextual {
+    right: -210px;
+    top: -20px;
+  }
+}

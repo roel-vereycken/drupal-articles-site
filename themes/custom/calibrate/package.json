@@ -1,0 +1,30 @@
+{
+  "name": "olympos-gulp",
+  "version": "1.0.0",
+  "description": "Gulp dependencies",
+  "main": "gulpfile.js",
+  "scripts": {
+    "preshrinkwrap": "git checkout -- npm-shrinkwrap.json",
+    "postshrinkwrap": "git checkout -- npm-shrinkwrap.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imran031387/Drupal-8-Theme-Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.x",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.12.0",
+    "imagemin-pngquant": "^4.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
