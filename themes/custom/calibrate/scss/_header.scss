@@ -5,6 +5,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @include phones {
+    background-image: none;
+    height: 0;
+  }
+
   .logotext {
     display: flex;
     align-items: center;

@@ -10,18 +10,35 @@
   margin: 2% 0;
   display: flex;
 
+  @include phones {
+    flex-direction: column;
+  }
+
   div {
     width: 60%;
+
+    @include phones {
+      width: 100%;
+    }
 
     img {
       width: 100%;
       height: auto;
       max-height: 500px;
+
+      @include phones {
+        max-height: 300px;
+      }
     }
 
     &:nth-child(2) {
       width: 140%;
       margin: 0 3%;
+
+      @include phones {
+        width: 100%;
+        margin: 2% 0;
+      }
     }
   }
 }
@@ -39,11 +56,23 @@
     align-items: center;
     justify-content: space-between;
 
+    @include tablets {
+      flex-direction: column;
+    }
+
     .views-row {
       width: 30%;
+
+      @include tablets {
+        width: 100%;
+      }
       img {
         width: 140%;
         // max-width: 565px;
+
+        @include tablets {
+          width: 100%;
+        }
       }
 
       a {

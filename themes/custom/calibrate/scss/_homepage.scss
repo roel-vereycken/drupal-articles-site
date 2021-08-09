@@ -15,9 +15,17 @@
   display: flex;
   justify-content: center;
 
+  @include phones {
+    flex-direction: column;
+  }
+
   div {
     width: 99%;
     margin: 1% 0;
+
+    @include phones {
+      margin: 3% 0;
+    }
   }
 }
 
@@ -59,6 +67,10 @@
     border: none;
     width: 18%;
     margin-left: auto;
+
+    @include phones {
+      width: 24%;
+    }
     a {
       text-decoration: none;
       color: black;
