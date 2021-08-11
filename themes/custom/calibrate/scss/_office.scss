@@ -1,25 +1,17 @@
-.layout,
-layout--twocol {
+.layout--twocol {
   margin: 0 5%;
-  display: flex;
 
   .layout__region--first {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .officePhoto {
-      img {
-        height: auto;
-        width: 100%;
-      }
+    width: 60px;
+    img {
+      height: auto;
+      width: 100%;
     }
   }
 
   .layout__region--second {
-    width: 50%;
     overflow-x: hidden;
-    padding-left: 5%;
+    padding: 0 3%;
 
     div {
       display: flex;
