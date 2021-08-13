@@ -1,0 +1,5 @@
+services:
+  hello_world.hello_generator:
+    class: Drupal\hello_world\Greetings\HelloGenerator
+    arguments:
+      -  '@keyvalue'
